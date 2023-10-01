@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "elysium",
+    "slug": "elysium-fields-forever",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyDTd8LGzfB0Lxyb7Nr_Ba9l-GqiTjmWF-U"
+        }
+      },
+      "package": "com.tv-pkd.elysium"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "429e1d52-5cb6-4626-8b16-71adcde1a856"
+      }
+    },
+    "owner": "tv-pkd"
+  }
+}
