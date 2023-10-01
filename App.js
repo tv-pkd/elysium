@@ -14,8 +14,6 @@ import Maps from './components/Maps.js';
 
 import RenderHtml from 'react-native-render-html';
 
-import * as Location from "expo-location";
-
 export default function App() {
   return(
     <View style={styles.container}>
@@ -24,8 +22,6 @@ export default function App() {
       </View>
       <Maps config={config}/>
       <View style={styles.license}>
-        {/* <Text>Elysium Fields Forever © 2023 by The Volunteer PsyrKaosD (TV-PKD) is licensed under CC BY-NC-SA 4.0 </Text> */}
-      
         <RenderHtml
           source={{
             html: '<a property="dct:title" rel="cc:attributionURL" href="https://github.com/tv-pkd/elysium">Elysium Fields Forever</a>\
